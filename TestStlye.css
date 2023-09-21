@@ -58,7 +58,7 @@ body {
   display: flex;
   column-gap: 15px;
 }
-.form .gender-box {
+/* .form .gender-box {
   margin-top: 20px;
 }
 .gender-box h3 {
@@ -86,7 +86,7 @@ body {
   color: #707070;
 }
 /* // */
-.form .suffer-box {
+/* .form .suffer-box {
   margin-top: 20px;
 }
 .suffer-box h3 {
@@ -112,35 +112,10 @@ body {
 }
 .suffer label {
   color: #707070;
-}
-/* // */
-.form .mental-box {
-  margin-top: 20px;
-}
-.mental-box h3 {
-  color: #333;
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 8px;
-}
-.form :where(.mental-option, .mental) {
-  display: flex;
-  align-items: center;
-  column-gap: 50px;
-  flex-wrap: wrap;
-}
-.form .mental {
-  column-gap: 5px;
-}
-.mental input {
-  accent-color: #20c997
-}
-.form :where(.mental input, .mental label) {
-  cursor: pointer;
-}
-.mental label {
-  color: #707070;
-}
+} */
+
+
+/* /// */
 .address :where(input, .select-box) {
   margin-top: 15px;
 }
@@ -178,7 +153,25 @@ body {
   .form :where(.suffer-option, .suffer) {
     row-gap: 15px;
   }
-  .form :where(.mental-option, .mental) {
+  .form :where(.positive-option, .positive) {
+    row-gap: 15px;
+  }
+  .form :where(.feeling-option, .feeling) {
+    row-gap: 15px;
+  }
+  .form :where(.doing-option, .doing) {
+    row-gap: 15px;
+  }
+  .form :where(.falling-option, .falling) {
+    row-gap: 15px;
+  }
+  .form :where(.about-option, .about) {
+    row-gap: 15px;
+  }
+  .form :where(.reading-option, .reading) {
+    row-gap: 15px;
+  }
+  .form :where(.issues-option, .issues) {
     row-gap: 15px;
   }
 }
